@@ -3,9 +3,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 #loading the saved model 
 
-diabetes_model = pickle.load(open('C:/Users/lokes/OneDrive/Desktop/Multiple disease prediction system/Model/diabates_model.sav','rb'))
-heart_disease_model = pickle.load(open('C:/Users/lokes/OneDrive/Desktop/Multiple disease prediction system/Model/heart_model.sav','rb'))
-breast_cancer_model = pickle.load(open('C:/Users/lokes/OneDrive/Desktop/Multiple disease prediction system/Model/breast_cancer.sav','rb'))
+diabetes_model = pickle.load(open('diabates_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_model.sav','rb'))
+breast_cancer_model = pickle.load(open('breast_cancer.sav','rb'))
 
 #sidebar for navigation
 
